@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+.selected {
+    color: black !important;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.gameContainer {
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.header {
+    background-color: pink;
+    padding: 30px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.icon {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#player .icon {
+    color: blue;
+}
+
+#computer .icon {
+    color: red;
+}
+
+.playerContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.resetContainer {
+    text-align: center;
+}
+
+.resetIcon {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.resultContainer {
+    text-align: center;
+}
+
+.resultText {
+    font-size: 40px;
+    margin: 20px;
+}

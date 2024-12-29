@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    margin: 0;
+}
+
+h1 {
+    color: black;
+}
+
+.app-title {
+    text-align: center;
+}
+
+.drag-item {
+    background-color: black;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    line-height: 24px;
+}
+
+.todo-column .header,
+.todo-column .update {
+    background-color: red;
+}
+
+.progress-column .header,
+.progress-column .update {
+    background-color: lightblue;
+}
+
+.done-column .header,
+.done-column .update {
+    background-color: lightgreen;
+}
+
+.header {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.header h1 {
+    font-size: 1.25rem;
+}
+
+.drag-list {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.over {
+    padding: 50px 10px;
+}
+
+.drag-column {
+    flex: 1;
+    margin: 0px 10px;
+    background-color: lightslategrey;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.drag-container {
+    margin: 20px;
+}
+
+.add-container {
+    min-height: 100px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    cursor: text;
+    display: none;
+}
+
+.add-item {
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+    outline: none;
+    color: black;
+    margin: 5px auto;
+    padding: 8px;
+
+}
+
+.add-btn {
+    background-color: coral;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.plus-span {
+    font-size: 20px;
+}
+
+.update {
+    display: none;
+}
+
+.add-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.add-btn-group {
+    display: flex;
+    justify-content: space-between;
+}
